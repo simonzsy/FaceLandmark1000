@@ -10,6 +10,7 @@ app = Flask(__name__)
 
 
 def image_run():
+    return "ok"
     face_detector_handle = FaceDetector()
     face_landmark_handle = FaceLandmark()
 
